@@ -1,0 +1,47 @@
+
+@charset "UTF-8";
+
+
+
+body{
+	font-size: 12pt;
+	min-width: 100px;
+}
+
+
+#content{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#textEntry{
+	font-size: 12pt;
+}
+
+#submitButton{
+	font-size:20px;
+}
+
+h1{
+	padding: 10px;
+}
+
+iframe{
+	width: 100%;
+}
+
+footer{
+	padding-right: 20px;
+}
+
+footer a{
+	color: lightgrey;
+}
+
+	
+}
+
+
+
+
+	
