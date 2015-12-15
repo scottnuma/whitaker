@@ -20,7 +20,7 @@ $(document).ready(function(){
         
         //Check to make sure that a word, not a paragraph, is clicked. This is a proof of concept, use something other than "background-color".
         if($(test).attr('class')== "word"){
-            $(test).css("color","red");
+            $(test).css("color","#AE0000");
         }
 		
 		//Else send the iframe to this new url
