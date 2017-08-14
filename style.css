@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container .content .banner {
+	background-color: gray;
+	height: 600px;
+	position: relative;
+	background-image: url(img/gate.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 0pt;
+	width: 100%;
+	border-radius: 0px;
+	min-height: 100vh;
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: right;
+	width: 100%;
+}
+.content .banner .impact {
+	position: absolute;
+	top: 50%;
+	line-height: 0pt;
+	width: 100%;
+	font-size: 2.em;
+	font-size: 2.618em;
+}
+.content .banner .call {
+	position: absolute;
+	border: thin solid white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: 65%;
+	left: 50%;
+}
+.content .banner .wrapper {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	left: 50%;
+	right: 50%;
+}
+.nav ul li {
+	float: left;
+	width: 33%;
+	text-align: center;
+	padding-top: 50px;
+	line-height: 10px;
+}
+
+.nav ul #title {
+	font-size: 2.618em;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 10pt;
+}
+.container header {
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 2.618em;
+}
+.container .content .Description {
+	background-color: lightgrey;
+}
+.content .Description .Container {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	position: relative;
+}
+.Description .Container h2 {
+	border-bottom: 3px solid black;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	max-width: 250px;
+}
+.Description .Container .Content {
+	max-width: 500px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+.Description .Container #gear {
+	position: absolute;
+	height: 130%;
+}
+.banner .call a {
+	color: white;
+}
+
+.container #text{
+	color: white;
+	text-align: right;
+	clear: both;
+	position: absolute;
+	bottom: 0px;
+	line-height: 50px;
+	width: 100%;
+	padding-right: 20px;
+	right: 0px;
+}
+.content .example .column {
+	width: 50%;
+	float: left;
+	height: 100%;
+	margin-bottom: 20px;
+}
+.container .content .example {
+	overflow-y: auto;
+	padding-bottom: 20px;
+}
+.content .example #right {
+}
+.content .example #left {
+	color: white;
+	text-align: right;
+	padding-right: 0px;
+}
+.content .broad {
+	text-align: center;
+	border-top: thin solid maroon;
+	border-bottom: thin solid maroon;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	padding-top: 10px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.example #left .wrapper {
+	padding-right: 20px;
+}
+p {
+	line-height: 1.5em;
+	overflow-y: scroll;
+	clear: both;
+}
+
+::selection
+{
+	background-color: #FF696C;
+}
+.content .example #right {
+	width: 400px;
+}
+.container .content .Texts {
+	clear: both;
+	width: 100%;
+	background-color: lightgrey;
+	padding-bottom: 20px;
+	text-align: right;
+}
+.Texts .columns .column {
+	width: 33.33%;
+	float: left;
+}
+.content .Texts .columns {
+}
+.content .Texts .wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	overflow-y: auto;
+}
+.example #right .information {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.columns .column h2 {
+	text-align: center;
+	margin-top: 0px;
+	background-color: maroon;
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 200px;
+	line-height: 200px;
+	color: white;
+}
+.columns .column p {
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: justify;
+}
+.container .sidebar1 {
+	width: 200px;
+	float: right;
+	background-color: lightgrey;
+	overflow-y: scroll;
+	position: absolute;
+	height: 100%;
+}
+.container .content {
+}
+.books .book {
+	list-style-type: none;
+	top: 0px;
+}
+
+.books .book:not(:first-child) {
+	/*Information for applying a border to separate each book
+	border-top-width: thin;
+	border-top-style: solid;*/
+}
+
+.sidebar1 nav .books {
+	padding-left: 20px;
+}
+.books .book .chapters {
+	padding-left: 0px;
+	list-style-type: none;
+}
+nav .books li {
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.container {
+	height: 100vh;
+}
+.container .wrapped {
+	position: absolute;
+	bottom: -1px;
+	top: 100px;
+	width: 100%;
+	overflow-y: auto;
+}
+.container .wrapped #Latin {
+	padding-top: 0px;
+	position: relative;
+	margin-left: 220px;
+	margin-right: 20px;
+	height: 100%;
+}
+.wrapped #Latin .parsing {
+	border-bottom: thin solid maroon;
+	padding-bottom: 0px;
+	overflow-y: scroll;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+}
+.sidebar1 nav #title {
+	margin-left: 20px;
+	margin-top: 20px;
+	color: white;
+}
+.wrapped #Latin iframe {
+	width: 100%;
+	border-style: none;
+	height: 100%;
+}
+.wrapped #Latin .lines {
+	position: absolute;
+	width: 100%;
+	max-width: 700px;
+	top: 50%;
+	height: 50%;
+	overflow-y: scroll;
+	padding-bottom: 0px;
+	margin-left: 20px;
+}
+.sidebar1 nav #book_title {
+	text-align: left;
+	padding-top: 20px;
+	font-weight: bold;
+	border-bottom: thin solid white;
+	padding-bottom: 20px;
+	color: maroon;
+	padding-left: 20px;
+}
+#text {
+}
+.container footer {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	color: white;
+	text-align: right;
+}
+#foot {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	color: white;
+	text-align: right;
+}
